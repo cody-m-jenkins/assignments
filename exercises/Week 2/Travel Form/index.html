@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <form name="travel">
+        <input name='firstname' type='text' placeholder='First name'/>
+        <input name='lastname' type='text' placeholder='Last name'/>
+        <br><br>
+        Age: 
+        <input name="age" type="number"/>
+        <br><br>
+        Gender: 
+        <input name='gender' type="radio" value="male">Male
+        <input name='gender' type="radio" value="female">Female
+        <input name='gender' type='radio' value='other'>Other
+        <br><br>
+
+        Travelling to:<br><select name="travelto">
+        <option value='Nairobi'>Nairobi</option>
+        <option value='Seoul'>Seoul</option>
+        <option value='Preston, ID'>Preston, ID</option>
+        <option value='Baltimore'>Baltimore</option>
+        </select>
+        
+        <br><br>
+        Dietary preference:<br>
+        <input name='diet' type='checkbox' value='gluten'>Gluten intolerant
+        <input name='diet' type='checkbox' value='vegan'>Vegan
+        <input name='diet' type='checkbox' value='vegetarian'>Vegetarian
+        <input name='diet' type='checkbox' value='keto'>Ketogenic
+        <br><br>
+        <input type="submit">
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="title">Mario Pest Control</div>
+
+    <p>Welcome to Mario Pest Control! We provide a baddie removal service that can't be beaten.
+        For your convenience, we've provided a calculator that will allow you to find out in advance how many of your precious <img src="https://sitejerk.com/images/mario-coin-png-8.png" width="16pt">s you must part with for our services.</p>
+
+    <div class="baddies">
+        <div class="baddies pic"><img src="https://cdn.wikimg.net/en/strategywiki/images/6/63/SMB3_enemy_Goomba.png"
+                alt="https://strategywiki.org/wiki/File:SMB3_enemy_Goomba.png"></div>
+        <div class="baddies pic"><img
+                src="https://cdn.wikimg.net/en/strategywiki/images/1/19/SMB3_enemy_Cheep_Cheep_red.png"
+                alt="https://cdn.wikimg.net/en/strategywiki/images/1/19/SMB3_enemy_Cheep_Cheep_red.png"></div>
+        <div class="baddies pic"><img src="https://cdn.wikimg.net/en/strategywiki/images/8/88/SMB3_enemy_Bob-omb.png"
+                alt="https://cdn.wikimg.net/en/strategywiki/images/8/88/SMB3_enemy_Bob-omb.png"></div>
+        <div class='baddies text'>Goombas <br> 5 coins </div>
+        <div class='baddies text'>Cheep-cheeps <br>7 coins</div>
+        <div class='baddies text'>Bob-ombs<br>11 coins</div>
+    </div>
+
+    <div id="kill">
+        <form name='killForm'>
+            Goombas: <input type="number" name="goombaKill" placeholder="Goombas" value="0" min="0"><br>
+            Cheep-Cheeps: <input type="number" name="cheepKill" placeholder="Cheep-cheeps" value="0" min="0"><br>
+            Bob-ombs: <input type="number" name="bobombKill" placeholder="Bob-ombs" value="0" min="0"><br><br>
+            <input type="submit" value="Calculate coin estimate">
+        </form>
+
+    </div>
+
+    <p id='coinResult'></p>
+
+    <div class="footer">
+        <div class="mail"><a href="mailto:stomp@mariopestcontrol.jp">Email me!</a></div>
+        <div class="url"><a href="https://www.mariopestcontrol.jp">https://www.mariopestcontrol.jp</a></div>
+        <div class="address">123 Rainbow Road, Mushroom Kingdom, Japan</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

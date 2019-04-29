@@ -1,0 +1,20 @@
+body {
+    background-color: aliceblue;
+    padding: 5pt;
+    background-image: linear-gradient(to top left, paleturquoise, lightpink, powderblue);
+}
+#add {
+    border: solid, black, 2pt;
+    background-color: powderblue;
+    padding: 3pt;
+}
+#sub {
+    border: solid, black, 2pt;
+    background-color: lightpink;
+    padding: 3pt;
+}
+#mul {
+    border: solid, black, 2pt;
+    background-color: paleturquoise;
+    padding: 3pt;
+}
