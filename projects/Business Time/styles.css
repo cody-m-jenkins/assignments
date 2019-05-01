@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #DCA5BD, #FCD9E8, #DCA5BD);
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Snell Roundhand", cursive;
+}
+
+h2 {
+    font-weight: 700;
+    font-family: cursive;
+    text-align: center;
+    padding-left: 24pt;
+}
+
+p {
+    font-family: cursive;
+    text-indent: 18pt;
+    padding-left: 24pt;
+    padding-right: 18pt;
+}
+
+.phone {
+    padding-left: 24pt;
+}
+
+.content {
+    padding: 12pt;
+    min-height: 66vh;
+}
+
+.products {
+    text-align: center;
+}
+
+
+img {
+    height: 100%;
+    width: 200pt;
+}
+
+.hound {
+    width: 200pt;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .6;
+}
+
+.bake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(to right, lightskyblue, #6480AF);
+}
+
+.background {
+    background: url('http://www.pngall.com/wp-content/uploads/2016/03/Grass-PNG-Images.png') center no-repeat;
+    /* background: url(/Grass-PNG-Images.png) center no-repeat; */
+    background-size: cover;
+    background-position: fixed;
+    min-height: 20vh;
+    margin-bottom: -2pt;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: antiquewhite;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: antiquewhite;
+    color: #6480AF;
+}
+
+.footer {
+    color: antiquewhite;
+    font-family: "Snell Roundhand", Cursive;
+    width: 100%;
+    background: linear-gradient(to right, #68B623, #4A8C02);
+    text-shadow: 1px 1px black;
+    display: inline-block;
+}
+
+@media (min-width: 500pt) {
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 14pt;
+    }
+
+    .content {
+        font-size: 1.2em;
+    }
+
+    .bake {
+        width: 400pt;
+    }
+
+    @media (min-width: 650pt) {
+        img {
+            height: 100%;
+            width: 300pt;
+        }
+    }
+    .content {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1.8em;
+    } 
+
+    @media (min-width: 900pt){
+        .content {
+            width: 90%;
+            text-align: center;
+            font-size: 1.6em;
+        }
+
+        h2 {
+            font-size: 2em;
+        } 
+    }
+ }

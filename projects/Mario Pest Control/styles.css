@@ -12,19 +12,25 @@
     color: #FF200D;
     text-shadow: 2px 2px 5px black;
 }
+
 p {
     padding: 18pt;
     text-indent: 30pt;
     font-family: 'Courier New', Courier, monospace;
     color: #0366D8;
+
 }
+
 body {
     margin: 0;
     box-sizing: border-box;
     background-image: linear-gradient(to bottom, #FFFB1D, #FFCE06);
-    height: auto;
+    height: 100%;
     min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
 }
+
 .baddies {
     justify-content: space-evenly;
     padding: 5pt;
@@ -33,6 +39,7 @@ body {
     grid-template-rows: auto;
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px FF200D; */
 }
+
 #kill {
     display: flex;
     padding: 10pt;
@@ -41,6 +48,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: #0366D8;
 }
+
 #coinResult {
     display: flex;
     padding: 10pt;
@@ -55,21 +63,23 @@ body {
     color: #0366D8;
 }
 
-.footer{
+.footer {
     background: #0366D8;
     color: #FF230C;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     border: solid blue;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: auto;
-    text-shadow: 2px 2px 5px black
- }
+    text-shadow: 2px 2px 5px black;
+    padding: 3pt;
 
- a {
-     color: #FF200D;
-     text-shadow: 2px 2px 1x black;
- }
+}
+
+a {
+    color: #FF200D;
+    text-shadow: 2px 2px 1x black;
+}
