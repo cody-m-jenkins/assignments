@@ -1,0 +1,74 @@
+{
+    "appetizers" : {
+        "boudin balls" : {
+            "name" : "Boudin Balls",
+            "ingredients" : ["rice", "ground pork", "herbs", "spices"],
+            "description" : "Our famous cajun recipe for boudin balls are sure to please! FYI, boudin is pronounced 'boo-dan' with a silent 'n'"
+        },
+        "fried pickles" : {
+            "name" : "Fried Pickles",
+            "ingredients" : ["sliced dill pickles", "beer batter", "tzatziki sauce"],
+            "description" : "These mouth watering fried pickles are the perfect pairing of tangy and savory. Try dipping them in our house-made tzatziki sauce and you'll keep coming back for more!"
+        }
+    },
+
+    "cold sandwiches" : {
+        "roast beef" :{
+            "name" : "Classic Roast Beef",
+            "ingredients" : ["french bread", "lettuce", "tomato", "mayonaise", "roast beef", "swiss cheese"],
+            "description" : "Our interpretation of an old classic: you can't beat fresh ingredients."
+        },
+        "turkey guac" :{
+            "name" : "Turkey Guacamole",
+            "ingredients" : ["wheat hoagie", "peppered turkey", "guacamole", "dijon mustard", "mayonaise"],
+            "description" : "Also known as the Millenial special, our creamy, house-made guacamole pairs perfectly with thinly sliced, peppered turkey on a whole wheat bun."
+        },
+        "ham cran wrap" :{
+            "name" : "Ham-Cranberry Wrap",
+            "ingredients" : ["flour torilla", "smoked ham", "cranberry spread", "gouda cheese", "romaine lettuce", "sliced apple"],
+            "description" : "Welcome to flavor country! This wrap was created in a moment of deparation the day after Thanksgiving. It was such a hit we've decided to add it to our permanent menu."
+        }
+    },
+    "hot sandwiches" : {
+        "pastrami rye" : {
+            "name" : "Pastrami on Rye",
+            "ingredients" : ["rye bread", "pastrami", "spicy mustard", "swiss cheese", "sandwich pickles", "butter"],
+            "description" : "It's fun to say. It's even more fun to eat. This sandwich is sure to be a favorite."
+        },
+        "patty melt" : {
+            "name" : "Famous Patty Melt",
+            "ingredients" : ["sourdough bread", "ground beef patty", "cheddar cheese", "grilled onions", "butter"],
+            "description" : "We've always found burgers to be superfluous. If you're looking for everything great in a burger with none of the fluff, look no further than our Famous Patty Melt. It's famous for a reason."
+        },
+        "grilled cheese" : {
+            "name" : "Grown-up Grilled Cheese",
+            "ingredients" : ["whole grain wheat bread", "gouda cheese", "swiss cheese", "cheddar cheese", "cajun seasoning", "butter"],
+            "description" : "Ever noticed how kids seem to enjoy the simple things in life? Just because you're grown that doesn't mean you can't too. We've taken the classic kid's favorite and elevated it to new heights."
+        }
+    },
+    
+    "desserts" : {
+        "molten cake" : {
+            "name" : "Molten Mountain",
+            "ingredients" : ["chocolate cake", "liquid fudge", "whole bean vanilla ice cream", "cherry"],
+            "description" : "If you're the kind of person who saves room for dessert, then this is the dessert for you! A gargantuan mountain of chocolate topped with a giant scoop of delicious whole bean vanilla ice cream, complete with a cherry on top. Why should you eat it? Because it's there."
+        },
+        "baby tiramisu" : {
+            "name" : "Baby-misu",
+            "ingredients" : ["mascarpone cheese", "sugar", "ladyfingers", "espresso", "rum", "eggs", "cocoa powder"],
+            "description" : "We realize some people prefer to prioritize the main course over dessert. We respect that. That's why we made the Baby-misu! A tiny serving of delicious tiramisu is perfect for those that want to enjoy a quality treat in a smaller portion."
+        }
+    },
+    "drinks" : {
+        "lemonade" : {
+            "name" : "Fresh Lemonade",
+            "ingredients" : ["lemons", "sugar", "water"],
+            "description" : "We keep it simple around here. Our lemonade has lemons, water, and sugar. Any questions?"
+        },
+        "adult lemonade" : {
+            "name" : "Adult Lemonade",
+            "ingredients" : ["lemons", "sugar", "water", "Salt City vodka"],
+            "description" : "Sometimes being an adult is hard. We understand. We take the same tasty lemonade as the kids are having and toss in a shot of locally produced Salt City vodka. You can tell it apart by the lime on the rim of the glass instead of a lemon, it'll be our little secret. "
+        }
+    }
+}

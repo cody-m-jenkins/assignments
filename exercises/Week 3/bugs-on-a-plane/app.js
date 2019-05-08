@@ -1,16 +1,16 @@
-var form = document.getElementByID("arline-form");
-var submit = document.getElementByID(submit);
-var query = document.querySelector;
+const form = document.getElementById("airline-form");
+const submit = document.getElementById("submit");
+const query = document.querySelector;
 
-function formAlert{} {
-    var firstName = form.elements["firstName"].value;
-    var lastName = form.elements["lastName"].value;
-    var age = form.elements["age"].value;
-    var gender = form.elements["gender"].value;
-    var location = form.elements["travel-location"].value;
-    var diet = {};
+function formAlert() {
+    const firstName = form.elements["first-name"].value;
+    const lastName = form.elements["last-name"].value;
+    const age = form.elements["age"].value;
+    const gender = form.elements["gender"].value;
+    const location = form.elements["travel-location"].value;
+    const diet = [];
     if (form.elements['vegan'].checked) {
-        var diet.pop(document.getElementById("vegan").value);
+        diet.push(document.getElementById('vegan').value);
     }
     if (form.elements['gluten'].checked) {
         diet.push(document.getElementById('gluten').value);
@@ -24,4 +24,4 @@ function formAlert{} {
 }
 
 
-submit.addEventListener("click", formalert);
+submit.addEventListener("click", formAlert);
