@@ -1,0 +1,42 @@
+* {
+    margin: 0pt;
+    box-sizing: border-box;
+    font-size: 0pt;
+}
+p {
+    font-size: 12pt;
+}
+
+.header {
+    background: blue;
+    height: 250px;
+}
+
+.first-content {
+    background: orange;
+    height: auto;
+    font-size: 12px;
+    color: black;
+}
+
+.second-content {
+    background: rosybrown;
+}
+
+@media(min-Width: 1130px){
+    body{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 250pt 500pt 500pt;
+    
+    }
+    .header{
+        background: pink;
+        grid-row: 1/2;
+        grid-column: 1/-1;
+    }
+    .content {
+        height: 100%;
+        grid-column: 1/2;
+    }
+}

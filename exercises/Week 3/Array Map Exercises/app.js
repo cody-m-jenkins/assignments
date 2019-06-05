@@ -67,7 +67,7 @@
 
 // 5.If you're over 21 you can go to the Matrix.
 
-//   const makeStrings = (arr) => arr.map(person => person.age >=21 ? `${person.name} can go to the Matrix` : `${person.name} cannot go to the Matrix`)
+  const makeStrings = (arr) => arr.map(person => person.age >=21 ? `${person.name} can go to the Matrix` : `${person.name} cannot go to the Matrix`)
   
 //   console.log(makeStrings([
 //       {

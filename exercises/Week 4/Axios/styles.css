@@ -1,0 +1,11 @@
+input {
+    width: 200pt;
+}
+
+input[type=submit] {
+    width: 60pt;
+}
+img {
+    height: auto;
+    width: 125pt;
+}

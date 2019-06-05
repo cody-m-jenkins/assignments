@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: pink;
+    display: flex;
+    justify-content: space-around;
+    height: 40pt;
+}
+
+.footer {
+    background: purple;
+    display: flex;
+    justify-content: space-around;
+    height: 40pt;
+}
+
+.main {
+    background: blue;
+    height: 150vh;
+}

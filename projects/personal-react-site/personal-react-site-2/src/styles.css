@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #557A95, #7395AE,#557A95 );
+}
+
+.Nav {
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to right,#5D5C61, #66656A, #5D5C61);    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18pt;
+}
+
+.Nav a:link, .Nav a:visited{
+    color: #B1A296;
+    text-decoration: none;
+}
+
+.Nav a:hover, .Nav a:active{
+    color: #7395AE;
+    font-size: 120%;
+    transition: 0.3s;
+}
+
+.Foot {
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    background: #5D5C61;
+    align-items: center;
+    text-shadow: 1px 1px #5D5C61;
+    color: #B1A296;
+    background-image: linear-gradient(to right,#5D5C61, #66656A, #5D5C61);    display: flex;
+    bottom: 0;
+}
+.Foot a:link, .Foot a:visited{
+    color: #B1A296;
+    text-decoration: none;
+}
+.Foot a:hover, .Foot a:active{
+    color: #7395AE;
+    font-size: 120%;
+    transition: 0.3s;
+}
+
+.Home {
+    width: 100%;
+    height: 85vh;
+    text-shadow: 1px 1px #5D5C61;
+    background-image: linear-gradient(to bottom, #557A95, #7395AE,#557A95 );
+    text-align: center;
+    margin-top: 20pt
+}
+
+.Rep {
+    width: 95%;
+    height: 85vh;
+    margin-left: 5%;
+    margin-top: 15pt;
+    text-shadow: 1px 1px #5D5C61;
+    background-image: linear-gradient(to bottom, #557A95, #7395AE,#557A95 );
+}
+
+.Info {
+    width: 95%;
+    height: 85vh;
+    text-shadow: 1px 1px #5D5C61;
+    background-image: linear-gradient(to bottom, #557A95, #7395AE,#557A95 );
+    margin-left: 5%;
+    margin-top: 15pt;
+}
+
+.Info a:link, .Info a:visited {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.Info a:active, .Info a:hover {
+    font-size: 110%;
+    transition: 0.3s;
+}
+
+.RepReturn {
+    border: solid, 1pt;
+    width: auto;
+    margin-bottom: 15pt;
+    padding-left: 30pt;
+}
+.RepReturn-Name {
+    border: solid, 1pt;
+    width: auto;
+    margin-top: 8pt;
+}
+.CapitolBuilding {
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.CapitolBuilding:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.Button {
+    font-size: 1.3em;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.Button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: .9em;
+    }
+    .Nav {
+        font-size: 1.3em;
+    }
+    .Foot {
+        font-size: .95em;
+    }
+    img {
+        width: 85%;
+    }
+    .Button {
+        font-size: .9em;
+    }
+}
+@media (min-width: 900px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    .Nav {
+        font-size: 1.7em;
+    }
+    .Foot {
+        font-size: 1.1em;
+    }
+    img {
+        width: 55%;
+    }
+}
