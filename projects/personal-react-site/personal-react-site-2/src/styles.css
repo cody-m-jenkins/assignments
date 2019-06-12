@@ -26,7 +26,7 @@ body {
 .Nav a:hover, .Nav a:active{
     color: #7395AE;
     font-size: 120%;
-    transition: 0.3s;
+    transition: 0.25s;
 }
 
 .Foot {
