@@ -16,7 +16,7 @@ bountyRouter.post('/', (req, res) => {
 })
 
 //get for all items
-bountyRouter.get('/', (req,res) => {
+bountyRouter.get('/', (req, res) => {
     Bounty.find((err, allTheBounties) => {
         if(err){
             res.status(500)
